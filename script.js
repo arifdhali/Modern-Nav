@@ -33,7 +33,7 @@ frames.forEach((frame) => {
         let zeroone = gsap.utils.mapRange(xstart, xend, 0, 1, dets.clientX);
 
         gsap.to(frame.children, {
-            x: lerp(-50, 50, zeroone),
+            x: lerp(-80, 80, zeroone),
         })
 
 
