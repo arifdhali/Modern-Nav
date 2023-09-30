@@ -13,7 +13,7 @@ body {
     background: #000;
 }
 
-main {    
+main {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -41,12 +41,6 @@ main {
     align-items: center;
     justify-content: center;
     transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .1s;
-    /*transform: translateY(-70px);
-    -webkit-transform: translateY(-70px);
-    -moz-transform: translateY(-70px);
-    -ms-transform: translateY(-70px);
-    -o-transform: translateY(-70px);
-    */
     -webkit-transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .5s;
     -moz-transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .1s;
     -ms-transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .1s;
@@ -58,7 +52,7 @@ main {
     mix-blend-mode: difference;
     width: 20px;
     height: 20px;
-    background: rgb(72, 18, 137);
+    background: skyblue;
     position: absolute;
     top: 0;
     left: 0;

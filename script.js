@@ -18,7 +18,7 @@ frames.forEach((frame) => {
 
     frame.addEventListener("mousemove", (dets) => {
         gsap.to(circle, {
-            scale: 7,
+            scale: 6,
         })
 
         gsap.to(frame.children, {
