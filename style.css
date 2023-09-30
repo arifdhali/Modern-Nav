@@ -1,0 +1,117 @@
+@font-face {
+    font-family: clrakson;
+    src: url(clarkson-400.woff2);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+}
+
+main {    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font: 500 36px tahoma;
+}
+
+
+
+.frame {
+    height: 70px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+.frame span {
+    cursor: pointer;
+    color: #fff;
+    width: 200px;
+    display: block;
+    height: 70px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .1s;
+    /*transform: translateY(-70px);
+    -webkit-transform: translateY(-70px);
+    -moz-transform: translateY(-70px);
+    -ms-transform: translateY(-70px);
+    -o-transform: translateY(-70px);
+    */
+    -webkit-transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .5s;
+    -moz-transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .1s;
+    -ms-transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .1s;
+    -o-transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .1s;
+    -webkit-transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .1s;
+}
+
+.circle {
+    mix-blend-mode: difference;
+    width: 20px;
+    height: 20px;
+    background: rgb(72, 18, 137);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) .2s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) .2s;
+    -moz-transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) .2s;
+    -ms-transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) .2s;
+    -o-transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) .2s;
+    z-index: 1;
+}
+
+.frames {
+    justify-content: space-between;
+}
+
+.frames,
+.left {
+    display: flex;
+    align-items: center;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid salmon;
+}
+
+
+.mobileMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mobileMenu span {
+    background: red;
+    width: 40px;
+    height: 2px;
+}
+
+.mobileMenu span:not(:last-child) {
+    margin-bottom: 10px;
+}
