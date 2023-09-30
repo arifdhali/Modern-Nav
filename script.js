@@ -22,7 +22,7 @@ frames.forEach((frame) => {
         })
 
         gsap.to(frame.children, {
-            color: "#fff",
+            color: "#000",
             y: "-70px",
         })
 
@@ -44,7 +44,8 @@ frames.forEach((frame) => {
             scale: 1,
         })
 
-        gsap.to(frame.children, {            
+        gsap.to(frame.children, {
+            color: "#fff",
             y: "0px",
         })
         gsap.to(frame.children, {

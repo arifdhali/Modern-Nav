@@ -52,7 +52,7 @@ main {
     mix-blend-mode: difference;
     width: 20px;
     height: 20px;
-    background: skyblue;
+    background: #fff;
     position: absolute;
     top: 0;
     left: 0;
@@ -86,10 +86,9 @@ main {
 }
 
 a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     padding-bottom: 2px;
-    border-bottom: 2px solid salmon;
 }
 
 
